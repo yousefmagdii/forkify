@@ -1,8 +1,13 @@
 {
+
     "name": "forkify",
     "version": "1.0.0",
-    "description": "",
+    "description": "Recipe application",
     "default": "index.html",
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "targets": {
+        "main": false
+    },
     "scripts": {
         "start": "parcel index.html",
         "build": "parcel build index.html --dist-dir ./dist"
