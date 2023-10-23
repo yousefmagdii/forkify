@@ -1,0 +1,24 @@
+{
+  "name": "js3",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-minify --out-dir ./dist"
+  },
+  "author": "Yousef",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.69.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "core-js": "^3.33.0",
+    "express": "^4.18.2",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.0"
+  }
+}
