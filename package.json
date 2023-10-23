@@ -5,12 +5,11 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-minify --out-dir ./dist"
+    "build": "parcel build index.html --out-dir ./dist"
   },
   "author": "Yousef",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.9.3",
     "parcel-bundler": "^1.12.5",
     "sass": "^1.69.2"
   },
@@ -19,6 +18,7 @@
     "core-js": "^3.33.0",
     "express": "^4.18.2",
     "fractional": "^1.0.0",
+    "parcel": "^1.12.4",
     "regenerator-runtime": "^0.14.0"
   }
 }
