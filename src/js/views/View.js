@@ -12,7 +12,7 @@ export default class View {
      * @author Yousef Magdy
      * @todo Finish implementation
      */
-
+  
 
 
     render(data , render = true) {
@@ -102,6 +102,7 @@ export default class View {
           </div>`
           this._clear();
           this._parentElement.insertAdjacentHTML('afterbegin', markup)
+          
 
       }
 }
